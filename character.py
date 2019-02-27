@@ -101,7 +101,7 @@ class Character:
 		for i in self.life:
 			print(i + ": " + str(self.life[i]))
 
-		print("\nAbilità")
+		print("\nAbilita'")
 		print("-----------------------------------")
 		for skill, abil  in self.abilities.items():
 			for item in abil:
